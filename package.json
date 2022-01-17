@@ -1,0 +1,19 @@
+{
+  "name": "unlock",
+  "version": "1.0.0",
+  "description": "welcome to unlock",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "unlock",
+    "tecknologi",
+    "metaverse",
+    "cryto",
+    "2022",
+    "2021"
+  ],
+  "author": "Marineux & aefars",
+  "license": "ISC"
+}
