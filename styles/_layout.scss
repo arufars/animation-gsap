@@ -1,0 +1,23 @@
+@mixin responsive {
+	max-width: 1200px;
+	width: 80%;
+}
+@mixin main {
+	overflow: hidden;
+	position: relative;
+	background-color: $white;
+}
+@mixin homecontainer {
+	@include responsive;
+		width: 100%;
+		// height: 100%;
+        height: 100vh ;
+		display: grid;
+		grid-template-columns: repeat(2, max-content);
+		row-gap: 0;
+		align-items: center;
+		justify-content: center;
+		column-gap: 8rem;
+		// background: red;
+		margin: 0 auto;
+}

@@ -1,3 +1,5 @@
+
+
 gsap.from(".logo-box", {
     opacity: 0,
     duration: .5,
@@ -33,9 +35,10 @@ gsap.from(".hero-descp", {
 gsap.from(".hero-button", {
     opacity: 0,
     duration: 1,
-    delay: 3.2,
-    x: -30
+    delay: 2.8,
+    y: 30
 });
+
 gsap.from(".hero-img", {
     opacity: 0,
     duration: 1,
