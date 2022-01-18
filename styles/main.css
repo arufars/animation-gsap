@@ -265,6 +265,19 @@ header nav .hamburger {
   width: 20px;
 }
 
+.first-main .home-container .hero-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.first-main .home-container .hero-img .hide {
+  position: fixed;
+  width: 100%;
+  height: 85vh;
+  background-color: #f4f6ff;
+  z-index: 1000;
+}
+
 .first-main .home-container .hero-img .img {
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.274947)), color-stop(48%, rgba(0, 0, 0, 0.134891)), to(rgba(0, 0, 0, 0.451418))), url("/images/icon.jpg");
   background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.274947) 0%, rgba(0, 0, 0, 0.134891) 48%, rgba(0, 0, 0, 0.451418) 100%), url("/images/icon.jpg");
@@ -275,5 +288,54 @@ header nav .hamburger {
   border-radius: 8px;
   height: 85vh;
   width: 520px;
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1500;
+}
+
+.intro .intro-text {
+  color: #bdbaba;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 3em;
+}
+
+.intro .hilang {
+  background: black;
+  overflow: hidden;
+}
+
+.intro .hilang span {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  display: inline-block;
+}
+
+.wallpaper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #4fa0e2;
+  z-index: 2000;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

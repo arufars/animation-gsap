@@ -197,6 +197,15 @@ header {
 			}
 		}
 		.hero-img {
+			position: relative;
+			overflow: hidden;
+			.hide {
+				position: fixed;
+				width: 100%;
+				height: 85vh;
+				background-color: $white;
+				z-index: 1000;
+			}
 			.img {
 				background-image: linear-gradient(
 						90deg,
@@ -219,4 +228,45 @@ header {
 			}
 		}
 	}
+}
+
+.intro {
+	background: rgb(0, 0, 0);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1500;
+	.intro-text {
+		color: rgb(189, 186, 186);
+		font-family: $Outfit;
+		font-weight: 500;
+        font-size: 3em;
+	}
+	.hilang {
+		background: black;
+		overflow: hidden;
+		span {
+			transform: translateY(100%);
+			display: inline-block;
+		}
+	}
+}
+
+
+
+.wallpaper {
+	position: absolute;
+	top: 0;
+	right: 0;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(79, 160, 226);
+	z-index: 2000;
+	text-align: center;
 }
